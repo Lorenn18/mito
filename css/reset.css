@@ -1,0 +1,16 @@
+/* reset margin body */
+*{
+    box-sizing: border-box;
+    line-height: inherit;
+    color: inherit;
+    font: inherit;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* global */
+/* a{
+    text-decoration: none;
+}
+end reset */
