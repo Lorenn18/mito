@@ -1,7 +1,11 @@
-/* helpers */
+@import "header.css";
+
 html{
     scroll-behavior: smooth;
 }
+
+/* helpers */
+
 .container {
   padding-left: 100px;
   padding-right: 100px;
@@ -24,9 +28,8 @@ html{
 .text-center{
     text-align: center;
 }
-html{
-    scroll-behavior: smooth;
-}
+/* end helpers */
+
 /* header 
 =================*/
 
@@ -44,7 +47,7 @@ header {
   color: #fff;
 }
 
-.logo {
+.wrapper-header__logo {
   border: 4px #fff solid;
   border-radius: 0px 10px 0px 10px;
   font-weight: 900;
@@ -62,10 +65,10 @@ b {
 
 
 
-.wrapper-header_hero {
+.wrapper-header__hero {
   background-image: url(../img/photo1.jpeg);
   background-position: center;
-  height: 500px;
+  height: 100vh;
   background-size: cover;
 }
 
@@ -172,6 +175,7 @@ ol {
     background-color: #fff;
     
 }
+
 
 /* footer
 ================== */

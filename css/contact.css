@@ -1,0 +1,47 @@
+@import "header.css";
+
+.wrapper-header__hero {
+	height: 50vh;
+}
+
+form{
+    display: flex;
+    justify-content: center; 
+}
+
+.all{
+    border: 5px black solid;
+    background-color: #D0C9C0;
+}
+.name{
+    display: flex;
+    flex-direction: column; 
+    padding: 5px;
+    text-decoration: underline;
+    gap: 5px;
+    margin: 5px;
+}
+
+.mail{
+   display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: underline;
+    gap: 5px;
+    
+}
+
+.description{
+    /* display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-decoration: underline;
+    gap: 5px; */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: underline;
+    gap: 5px;
+}
